@@ -57,7 +57,6 @@ def executeTask():
     if data[0] >= 4 and data[1] >= 4:
         if (abs(data[2] - prevdata[2]) > threshold) and xymove[0] == 0:
             print()
-            #scroll((-data[2] + prevdata[2] + 25) * xsensitivity)
     if (abs(data[2] - prevdata[2]) > threshold) and xymove[0] == 0:
         move(0, (-data[2] + prevdata[2] + 25) * xsensitivity)
     if (abs(data[3] - prevdata[3]) > threshold) and xymove[1] == 0:
