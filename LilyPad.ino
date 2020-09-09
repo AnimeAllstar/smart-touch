@@ -40,7 +40,6 @@ void loop() {
   delay(100);
 }
 
-//IMU functions
 void callback(){
   intFlag=true;
   digitalWrite(13, digitalRead(13) ^ 1);
@@ -71,8 +70,6 @@ void updateLocation(){
   }
 }
  
-//end of IMU functions
-
 void initiateIMU(){ //make imu initiator
   Wire.begin();
 
