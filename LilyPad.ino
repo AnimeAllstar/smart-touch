@@ -53,7 +53,7 @@ void I2Cread(uint8_t Address, uint8_t Register, uint8_t Nbytes, uint8_t* Data){
   Wire.requestFrom(Address, Nbytes);
   uint8_t index=0;
   while (Wire.available())
-  Data[index++]=Wire.read();
+    Data[index++]=Wire.read();
 }
  
 // Set register address
@@ -67,7 +67,7 @@ void I2CwriteByte(uint8_t Address, uint8_t Register, uint8_t Data){
 // Update IMU location
 void updateLocation(){
   for(int i = 0;i<2;i++){
-  location[i] = IMUReading[i] - initIMUReading[i];
+    location[i] = IMUReading[i] - initIMUReading[i];
   }
 }
  
