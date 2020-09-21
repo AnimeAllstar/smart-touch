@@ -56,4 +56,4 @@ The detailed setup for the project is present in the "images" folder.
 
 ## Credits
 
-* Readin data from IMU:  [Philippe Lucidarme](https://lucidar.me/en/inertial-measurement-unit/mpu-9250-and-arduino-9-axis-imu/)
+* Reading data from IMU:  [Philippe Lucidarme](https://lucidar.me/en/inertial-measurement-unit/mpu-9250-and-arduino-9-axis-imu/)
